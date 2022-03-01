@@ -12,7 +12,7 @@ class Body extends Component{
         return(
             <Fragment>
                 <div className='container mt-4'>
-                    <h1>Body</h1>
+                    <h1>Footer</h1>
                     {/* <input type="text" className="form-control" placeholder='Nama' onChange={(ev)=>this.setState({nama : ev.target.value})}  /> */}
                     {/* <p>{this.state.nama}</p> */}
                 </div>   
