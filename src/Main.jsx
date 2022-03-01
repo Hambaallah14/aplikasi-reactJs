@@ -13,7 +13,7 @@ class Main extends Component{
         return(
             <Fragment>
               <Navbar />
-              <Body />
+              {/* <Body /> */}
             </Fragment>
         )
     }

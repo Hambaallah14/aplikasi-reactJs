@@ -12,9 +12,10 @@ class Navbar extends Component{
         return(
             <Fragment>
                 <Router>
+                   
                     <nav className="navbar navbar-expand-lg navbar-light bg-light">
                         <div className="container-fluid">
-                            <Link to ="/home" class="navbar-brand">Navbar</Link>
+                            <Link to ="/" class="navbar-brand">Navbar</Link>
                             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
@@ -30,11 +31,12 @@ class Navbar extends Component{
 
                                     {/* <Route path="/" exact component={Body}/> */}
                                     {/* <Route path="/home" component={Body}/> */}
-                                    {/* <Route path="/footer" component={Footer}/> */}
+                                    {/* <Route path="/footer" component={Footer}/>   */}
                                 </ul>
                             </div>
                         </div>
                     </nav>
+                   
                 </Router>
             </Fragment>
         )
